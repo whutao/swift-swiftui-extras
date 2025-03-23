@@ -20,6 +20,7 @@ extension View {
     
     /// Sets the `isPressed` environment value.
     @inlinable
+    @inline(__always)
     public func isPressed(_ isPressed: Bool) -> some View {
         environment(\.isPressed, isPressed)
     }
