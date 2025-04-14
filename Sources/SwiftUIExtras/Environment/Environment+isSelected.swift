@@ -20,7 +20,6 @@ extension View {
     
     /// Sets the `isSelected` environment value.
     @inlinable
-    @inline(__always)
     public func isSelected(_ isSelected: Bool) -> some View {
         environment(\.isSelected, isSelected)
     }
