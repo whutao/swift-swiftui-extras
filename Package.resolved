@@ -1,0 +1,24 @@
+{
+  "originHash" : "742877e035387337d0555e6ddbf19adace64c957a5beff85f28c44304ff4b54e",
+  "pins" : [
+    {
+      "identity" : "swift-core-graphics-extras",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/whutao/swift-core-graphics-extras",
+      "state" : {
+        "revision" : "0d3b0b8783ed0b06c7d0382e3a9cd9f2298736ed",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-extras",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/whutao/swift-extras",
+      "state" : {
+        "revision" : "92f3906f0126df24f01cf22024ec46a247fa8052",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
