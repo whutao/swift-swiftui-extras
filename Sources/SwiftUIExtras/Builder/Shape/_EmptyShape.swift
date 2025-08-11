@@ -6,7 +6,7 @@ public struct _EmptyShape: Shape {
         
     }
     
-    nonisolated public func path(in rect: CGRect) -> Path {
+    public func path(in rect: CGRect) -> Path {
         return Path()
     }
 }

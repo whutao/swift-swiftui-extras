@@ -1,7 +1,7 @@
 import SwiftUI
 
 @resultBuilder
-public struct ShapeBuilder {
+public enum ShapeBuilder {
     
     public static func buildBlock<Component: Shape>(_ component: Component) -> some Shape {
         return component
