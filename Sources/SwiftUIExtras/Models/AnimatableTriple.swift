@@ -28,6 +28,8 @@ public struct AnimatableTriple<
         self.third = third
     }
     
+    // MARK: - VectorArithmetic
+    
     public var magnitudeSquared: Double {
         return first.magnitudeSquared + second.magnitudeSquared + third.magnitudeSquared
     }

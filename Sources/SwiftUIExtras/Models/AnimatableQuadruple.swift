@@ -33,6 +33,8 @@ public struct AnimatableQuadruple<
         self.fourth = fourth
     }
     
+    // MARK: - VectorArithmetic
+    
     public var magnitudeSquared: Double {
         return first.magnitudeSquared + second.magnitudeSquared + third.magnitudeSquared + fourth.magnitudeSquared
     }
